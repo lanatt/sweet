@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sweet Temptation</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="font-awesome/css/all.min.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mobyle.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick.css" rel="stylesheet" type="text/css"/>
+        <link href="css/slick-theme.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Topbar Start -->
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="top-bar-container">
+                        <div class="row">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                <div class="top-bar-phone">
+                                    <i class="fa fa-phone-alt"></i>
+                                    +012-345-6789
+                                </div>    
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                <div class="top-bar-logo">
+                                    <a href="index.html">
+                                        <h1><span class="text-secondary">Sweet</span>Temptation</h1>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                                <div class="top-bar-social">
+                                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a class="btn btn-primary btn-square rounded-circle" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>    
+            </div>
+        </div>            
+        <!-- Topbar End -->
+
+        <!-- Bottom Bar Start -->
+        <div class="bottom-bar">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">                   
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                            <div class="bottom-bar-left">
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle login" data-bs-toggle="dropdown">Login / Register</a>
+                                    <div class="dropdown-menu login">
+                                        <a href="login-register.html" class="dropdown-item login">Login</a>
+                                        <a href="login-register.html" class="dropdown-item login">Register</a>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4 col-sm-12">
+                            <div class="search">
+                                <input type="text" placeholder="Search">
+                                <button><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-12">
+                            <div class="user">
+                                <a href="wishlist.html" class="btn wishlist">
+                                    <i class="fa fa-heart"></i>
+                                    <span>(0)</span>
+                                </a>
+                                <a href="cart.html" class="btn cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    <span>(0)</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        <!-- Bottom Bar End -->
+
+        <!--Navbar Start-->
+        <div class="container-fluid">
+            <header id="header">
+                <nav class="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+                    <div class="container-fluid">
+                        <div class="navbar-logo">
+                            <a href="index.html" class="navbar-brand d-flex d-lg-none">
+                                <h2 class="m-0 display-4 text-secondary"><span class="text-white">Sweet</span>Temptation</h2>
+                            </a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="navbar-nav mx-auto py-0">
+                                <li><a href="index.html" class="nav-item nav-link active">Home</a></li>
+                                <li><a href="icecream.html" class="nav-item nav-link">Ice Cream</a></li>
+                                <li><a href="cake.html" class="nav-item nav-link">Cake</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-bs-display="static">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">Ice Cream</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="category-icecream.html" class="dropdown-item">Ice Cream in Portions</a></li>
+                                                <li><a href="category-icecream.html" class="dropdown-item">Family ice cream</a></li>
+                                                <li><a href="category-icecream.html" class="dropdown-item">For cafes, restaurants</a></li>
+                                                <li><a href="category-icecream.html" class="dropdown-item">Vegan Ice Cream</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle">Cake</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="category-cake.html" class="dropdown-item">Special Occasion Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Birthday Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Wedding Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Corporate Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Quick Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Photo Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Vegan Cakes</a></li>
+                                                <li><a href="category-cake.html" class="dropdown-item">Ice Cakes</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>                            
+                                <li><a href="about.html" class="nav-item nav-link">About Us</a></li>
+                                <li><a href="contact.html" class="nav-item nav-link">Contact</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" data-bs-toggle="dropdown" class="dropdown-item dropdown-toggle nav-item nav-link">My Account</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="my-account.html" class="dropdown-item">My Account</a></li>
+                                        <li><a href="cart.html" class="dropdown-item">Cart</a></li>
+                                        <li><a href="checkout.html" class="dropdown-item">Checkout</a></li>
+                                    </ul>
+                                </li>        
+                            </ul>
+                        </div>      
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <!--Navbar End-->
+
+        <!-- Checkout Start -->
+        <div class="checkout featured-category category">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>Checkout</h1>
+                    </div>                
+                    <div class="row">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12">
+                            <div class="checkout-inner">
+                                <div class="billing-address">
+                                    <h2>Billing Address</h2>
+                                    <div class="row">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>First Name</label>
+                                            <input class="form-control" type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Last Name"</label>
+                                            <input class="form-control" type="text" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>E-mail</label>
+                                            <input class="form-control" type="text" placeholder="E-mail">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Mobile No</label>
+                                            <input class="form-control" type="text" placeholder="Mobile No">
+                                        </div>
+                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                            <label>Address</label>
+                                            <input class="form-control" type="text" placeholder="Address">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Country</label>
+                                            <select class="custom-select">
+                                                <option selected>United States</option>
+                                                <option>Afghanistan</option>
+                                                <option>Albania</option>
+                                                <option>Algeria</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>City</label>
+                                            <input class="form-control" type="text" placeholder="City">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>State</label>
+                                            <input class="form-control" type="text" placeholder="State">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>ZIP Code</label>
+                                            <input class="form-control" type="text" placeholder="ZIP Code">
+                                        </div>
+                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="newaccount">
+                                                <label class="custom-control-label" for="newaccount">Create an account</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="shipto">
+                                                <label class="custom-control-label" for="shipto">Ship to different address</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="shipping-address">
+                                    <h2>Shipping Address</h2>
+                                    <div class="row">
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                            <label>First Name</label>
+                                            <input class="form-control" type="text" placeholder="First Name">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Last Name"</label>
+                                            <input class="form-control" type="text" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>E-mail</label>
+                                            <input class="form-control" type="text" placeholder="E-mail">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Mobile No</label>
+                                            <input class="form-control" type="text" placeholder="Mobile No">
+                                        </div>
+                                        <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                                            <label>Address</label>
+                                            <input class="form-control" type="text" placeholder="Address">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>Country</label>
+                                            <select class="custom-select">
+                                                <option selected>United States</option>
+                                                <option>Afghanistan</option>
+                                                <option>Albania</option>
+                                                <option>Algeria</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>City</label>
+                                            <input class="form-control" type="text" placeholder="City">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>State</label>
+                                            <input class="form-control" type="text" placeholder="State">
+                                        </div>
+                                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                            <label>ZIP Code</label>
+                                            <input class="form-control" type="text" placeholder="ZIP Code">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                            <div class="checkout-inner">
+                                <div class="checkout-summary">
+                                    <h1>Cart Total</h1>
+                                    <p>Product Name<span>$99</span></p>
+                                    <p class="sub-total">Sub Total<span>$99</span></p>
+                                    <p class="ship-cost">Shipping Cost<span>$1</span></p>
+                                    <h2>Grand Total<span>$100</span></h2>
+                                </div>
+    
+                                <div class="checkout-payment">
+                                    <div class="payment-methods">
+                                        <h1>Payment Methods</h1>
+                                        <div class="payment-method">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="payment-1" name="payment">
+                                                <label class="custom-control-label" for="payment-1">Paypal</label>
+                                            </div>
+                                            <div class="payment-content" id="payment-1-show">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="payment-method">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="payment-2" name="payment">
+                                                <label class="custom-control-label" for="payment-2">Payoneer</label>
+                                            </div>
+                                            <div class="payment-content" id="payment-2-show">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="payment-method">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="payment-3" name="payment">
+                                                <label class="custom-control-label" for="payment-3">Check Payment</label>
+                                            </div>
+                                            <div class="payment-content" id="payment-3-show">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="payment-method">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="payment-4" name="payment">
+                                                <label class="custom-control-label" for="payment-4">Direct Bank Transfer</label>
+                                            </div>
+                                            <div class="payment-content" id="payment-4-show">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="payment-method">
+                                            <div class="custom-control custom-radio">
+                                                <input type="radio" class="custom-control-input" id="payment-5" name="payment">
+                                                <label class="custom-control-label" for="payment-5">Cash on Delivery</label>
+                                            </div>
+                                            <div class="payment-content" id="payment-5-show">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt orci ac eros volutpat maximus lacinia quis diam.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkout-btn">
+                                        <button>Place Order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>        
+        <!-- Checkout End -->
+
+        <!-- Footer Start -->
+        <footer>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12">
+                            <div class="row">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-container-left">
+                                        <h4>Get In Touch</h4>
+                                        <div class="contact-info">
+                                            <p><i class="fa fa-map-marker"></i>203 Fake St. Mountain View, <br> 11378 New York</p>
+                                            <p><i class="fa fa-envelope"></i>sweettemptation@example.com</p>
+                                            <p><i class="fa fa-phone"></i>+012-345-6789</p>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="btn btn-secondary btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                            <a class="btn btn-secondary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer-container-left">
+                                        <h4>Quick Links</h4>
+                                        <ul>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                            <li><a href="terms.html">Terms & Condition</a></li>
+                                            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+                                            <li><a href="return-policy.html">Return Policy</a></li>
+                                        </ul>     
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                            <div class="footer-container-right">
+                                <h4>Newsletter</h4>
+                                <h6>Subscribe Our Newsletter</h6>
+                                <form action="#">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control border-white p-3" placeholder="Your Email">
+                                        <button class="btn btn-primary btn-signup">Sign Up</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 copyright">
+                        <p>Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                            <a>Sweet Temptation</a>. All Rights Reserved</p>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 template-by">				
+                        <p>Designed By </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+                
+        <script src="jquery/jquery-3.6.0.min.js"></script>
+        <script src="js/scroll.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
